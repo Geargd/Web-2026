@@ -1,0 +1,142 @@
+@font-face{
+    font-family: "Golos UI";
+    src: url(fonts/Golos-UI_VF.ttf);
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+body{
+    margin: 0 0 0 0;
+    font-family: "Golos UI", sans-serif;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+    gap: 107px;
+}
+
+.left-block{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 462px;
+    height: 501px;
+    overflow: hidden;
+}
+
+.human-div{
+    width: 100%;
+    max-width: 462px;
+    height: auto;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.human-img{
+    object-fit: cover;
+    width: 462px;
+    height: 501px;
+}
+
+.human-text{
+    position: absolute;
+    margin-top: -106.63px;
+    margin-left: -90px;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 1.2;
+    letter-spacing: -1.5px;
+    color: #222222;
+}
+
+.right-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 343px;
+    height: 251px;
+    gap: 32px;
+}
+.input-field{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    width: 343px;
+    height: 44px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 13px;
+    padding-left: 12px;
+    background-color: #F2F3F5;
+}
+
+
+
+.input-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+
+}
+
+.authorization{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.authorization-title{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.authorization-descrition{
+    font-size: 13px;
+    color: #808080;
+    line-height: 16px;
+    letter-spacing: -0.08px;
+}
+
+
+.continue-field{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 343px;
+    height: 48px;
+    border-radius: 10px;
+    padding-right: 16px;
+    padding-left: 16px;
+    background-color: #222222;
+}
+
+.continue-button{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.eye-off{
+    color: #222222;
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: #F2F3F5;
+    width: 100%;
+}
